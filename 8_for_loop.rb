@@ -13,6 +13,6 @@
 # end
 
 # TODO: Fazer a mesma coisa com range
-for banana in 'a'..'e' do
-  puts "The banana now is #{banana} (using for..in with a range)"
+for letter in 'a'..'e' do
+  puts "The letter now is #{letter} (using for..in with a range)"
 end

@@ -18,27 +18,11 @@ guess = nil
 # - Perguntar novamente
 # - Pegar a nova tentativa e atualizar a variável
 
-
 until guess == price
   puts 'Guess the price ($1 to $5)'
   print '> '
   guess = gets.chomp.to_i
-  puts "Your guess was #{guess}, the price was #{price}"
-  puts '--------------------------------------------'
 end
-
-
-
-
-
-
-
-
-# until guess == price
-#   puts 'Guess the price ($1 to $5)'
-#   print '> '
-#   guess = gets.chomp.to_i
-# end
 
 # while guess != price
 #   puts 'Guess the price ($1 to $5)'
